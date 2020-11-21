@@ -1,0 +1,21 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "creat": "bin/index.js init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^6.1.0",
+    "ora": "^5.1.0"
+  }
+}
